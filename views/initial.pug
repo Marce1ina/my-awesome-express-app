@@ -1,0 +1,12 @@
+doctype html
+html
+    head
+        title="My awesome app"
+        style
+            include initial.css
+            include title.css
+            include general.css
+    body
+        div.container
+            include ./title.pug
+            button.login-btn: a.login(href="/auth/google") Log in!

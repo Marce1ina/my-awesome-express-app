@@ -1,0 +1,14 @@
+.login-btn {
+    height: 50px;
+    width: 200px;
+    background: rgb(0, 183, 255);
+    border-radius: 10px;
+    outline: none;
+}
+
+.login {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
+}

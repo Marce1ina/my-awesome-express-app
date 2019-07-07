@@ -1,0 +1,16 @@
+doctype html
+html
+    head
+        title="Google login"
+        style
+            include login.css
+            include general.css
+    body
+        div.container
+            include ./title.pug
+            form(action="http://localhost:3000/app", method="GET")
+                p.form-field Login:
+                    input.form-input(type="text", name="login")
+                p.form-field Password:
+                    input.form-input(type="password", name="password")
+                input.login(type="submit", value="Log in")
